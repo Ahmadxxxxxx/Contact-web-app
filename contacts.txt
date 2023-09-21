@@ -1,0 +1,45 @@
+�� sr java.util.TreeSetݘP���[  xppw    x
+riegie hfeifrhe hefifhie
+nefirf feuirhfe hehfus
+daj jdjaa jajdk
+bcdjsbc vbdbv bcdfubcd
+
+ /* ArrayList<contact[]>h=new ArrayList<contact[]>();
+
+
+				if(textField1.getText().equals("")|| textField2.getText().equals("")||textField6.getText().equals("")|| textField7.getText().equals(""))
+                {
+                    JOptionPane.showMessageDialog(null, "Un contact doit avoir un nom,un prenom et un numero de telephone");
+                }
+                else {
+                    contact c=new contact(textField1.getText(),textField2.getText(),textField3.getText(),h);
+                    contactSET.add(c);
+                    
+                    try {
+                        File contactFL = new File("contacts.txt");
+                       
+                        ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(contactFL));
+                        oos.writeObject(contactSET);
+                        oos.flush();
+                        oos.close();
+            
+                        
+                    }
+                    catch(IOException ioe) { }
+                    textField1.setText("");
+                    textField2.setText("");
+                    textField3.setText("");*/
+                    /*contactlst2.setModel(contactlstmdl2);
+				contact c = new contact(textField1.getText(),textField2.getText(),textField3.getText());
+
+				 contactlstmdl2.addElement(c);
+                 String FirstName=textField1.getText();
+                 String LastName=textField2.getText();
+                 String City=textField3.getText();
+
+                 contact c=new contact(FirstName,LastName,City);
+
+                int n=contactlstmdl2.getSize();
+                for (int j=0;j<n;j++){
+                    ((Object) contactlstmdl2.getElementAt(j)).savebtn(c);
+                }*/
